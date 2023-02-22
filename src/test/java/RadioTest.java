@@ -7,7 +7,7 @@ public class RadioTest {
     @Test
     public void getNumberCurrentStationTest () {
         Radio receiver = new Radio();
-        
+
         int expected = 0;
         int actual = receiver.getNumberCurrentStation();
 
